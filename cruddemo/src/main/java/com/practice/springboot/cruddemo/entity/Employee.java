@@ -33,7 +33,8 @@ public class Employee {
 	public Employee() {
 		
 	}
-
+	
+	//define parameterized constructors
 	public Employee(String firstName, String lastName, String email) {
 		this.firstName = firstName;
 		this.lastName = lastName;
